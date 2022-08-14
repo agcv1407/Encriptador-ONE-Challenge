@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto | Challenge ONE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="">
+        </div>
+        <div class="left">
+            <div class="left__text-input">
+                <textarea name="" id="input-text" cols="30" rows="10" placeholder="Ingrese el texto aqui..."></textarea>
+            </div>
+            <div class="buttons">
+                <button id="encrypt" class="button">Encriptar</button>
+                <button id="decrypt" class="button">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="right">
+
+            <div id="right-with-text" class="right__with-text">
+                <p id="output-text"></p>
+                <div class="buttons buttons-right">
+                    <button id="copy" class="button button-right no-margin">Copiar</button>
+                </div>
+            </div>
+            <div id="right-without-text" class="right__without-text">
+                <figure>
+                    <img src="assets/output-image.svg" alt="">
+                </figure>
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <footer>
+        <h3>Desarrollado por: &copyAndrés Caro</h3>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
